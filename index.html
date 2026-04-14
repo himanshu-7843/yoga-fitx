@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga.Fitx | Ultra Premium Fitness & Yoga Coach</title>
+    <meta name="description"
+        content="Elevate your body and mind with Yoga.Fitx. Premium personal training, specialized yoga, and fitness coaching by an MPED certified expert in Nagpur.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            position: relative;
+            background-color: #0f0f0f;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: url("assets/yoga_mandala.png") center center / 800px no-repeat;
+            opacity: 0.15;
+            /* Makes the image faintly visible */
+            z-index: -1;
+            pointer-events: none;
+            mix-blend-mode: screen;
+            /* Melts with the dark background */
+        }
+
+        body::after {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: radial-gradient(circle at center, rgba(255, 255, 255, 0.03), transparent 60%);
+            z-index: -1;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">YOGA<span>.FITX</span></a>
+            <div class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#about">The Coach</a>
+                <a href="#services">Premium Services</a>
+                <a href="#why-us">Why Us</a>
+            </div>
+            <a href="https://wa.me/918055492441?text=Hi%20Yoga.Fitx,%20I'd%20like%20to%20inquire%20about%20your%20fitness%20and%20yoga%20classes."
+                class="btn-primary nav-btn" target="_blank" rel="noopener noreferrer">Book Consultation</a>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="subtitle hidden-element">Redefine Your Limits</h2>
+            <h1 class="title hidden-element">Elevate Your Mind,<br><span>Transform Your Body</span></h1>
+            <p class="hero-description hidden-element">Experience luxury fitness and specialized yoga coaching tailored
+                exclusively for your goals. Guided by an MPED professional.</p>
+            <div class="hero-buttons hidden-element">
+                <a href="https://wa.me/918055492441?text=I'm%20ready%20to%20transform%20my%20body%20with%20Yoga.Fitx."
+                    class="btn-primary" target="_blank" rel="noopener noreferrer">
+                    Start Your Journey <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#about" class="btn-secondary">Discover More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container about-grid">
+            <div class="about-image-wrapper hidden-left">
+                <div class="glass-decoration"></div>
+                <img src="assets/coach_premium_pose.png" alt="Fitness Coach Training" class="about-image">
+            </div>
+            <div class="about-text hidden-right">
+                <h3 class="section-subtitle">The Visionary Behind The Transformation</h3>
+                <h2 class="section-title">Expert Coaching. <span>Proven Results.</span></h2>
+                <h4
+                    style="color: var(--text-light); margin-bottom: 1rem; font-family: var(--font-heading); letter-spacing: 1px; font-size: 1.2rem;">
+                    Head Coach: <span>Mohnish Ambule</span></h4>
+                <p>Welcome to <strong>Yoga.Fitx</strong>, the pinnacle of physical and mental conditioning. Led by
+                    <strong>Mohnish Ambule</strong>, a highly qualified Physical Trainer (MPED), we merge the ancient
+                    wisdom of Yoga with cutting-edge fitness science.
+                </p>
+                <p>Whether your goal is profound flexibility, core strengthening, or complete body recomposition, we
+                    engineer customized protocols to guarantee your success.</p>
+
+                <div class="stats-row">
+                    <div class="stat-box">
+                        <span class="stat-number">MPED</span>
+                        <span class="stat-label">Certified Professional</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Lives Transformed</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">4.7<i class="fas fa-star"
+                                style="font-size: 0.6em; color: var(--gold);"></i></span>
+                        <span class="stat-label">Top Rated Coach</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Malkhamb Specialization Section -->
+    <section id="malkhamb" class="section">
+        <div class="container about-grid">
+            <div class="about-text hidden-left">
+                <h3 class="section-subtitle">Traditional Power & Grace</h3>
+                <h2 class="section-title">Best <span>Malkhamb</span> Teacher</h2>
+                <p>Rooted in ancient Indian tradition, <strong>Mallakhamb</strong> is the ultimate test of human
+                    capability, blending aerial yoga, gymnastics, and raw wrestling strength on a vertical wooden pole.
+                    It challenges gravity and commands absolute focus.</p>
+                <p>As the premier Malkhamb specialist, <strong>Mohnish Ambule</strong> brings unparalleled expertise in
+                    this extreme sport. Under his guidance, you will unlock elite functional strength, unmatched grip
+                    power, and supreme flexibility that translates immediately into everyday performance.</p>
+
+                <ul style="list-style: none; margin-top: 1.5rem;">
+                    <li
+                        style="margin-bottom: 0.8rem; display: flex; align-items: center; gap: 10px; color: var(--text-muted);">
+                        <i class="fas fa-check-circle" style="color: var(--gold);"></i> Core & Grip Mastery
+                    </li>
+                    <li
+                        style="margin-bottom: 0.8rem; display: flex; align-items: center; gap: 10px; color: var(--text-muted);">
+                        <i class="fas fa-check-circle" style="color: var(--gold);"></i> Advanced Aerial Flexibility
+                    </li>
+                    <li
+                        style="margin-bottom: 0.8rem; display: flex; align-items: center; gap: 10px; color: var(--text-muted);">
+                        <i class="fas fa-check-circle" style="color: var(--gold);"></i> Traditional Indian Gymnastics
+                    </li>
+                </ul>
+            </div>
+            <div class="about-image-wrapper hidden-right" style="position: relative; padding: 20px;">
+                <div class="glass-decoration"
+                    style="left: 0; right: 0; top: 0; bottom: 0; background: linear-gradient(135deg, rgba(212,175,55,0.05) 0%, rgba(10,10,10,0.5) 100%); border: 1px solid rgba(212,175,55,0.2); border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                </div>
+                <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=800&auto=format&fit=crop"
+                    alt="Premium Fitness & Malkhamb Specialist" class="about-image"
+                    style="position: relative; z-index: 2; border-radius: 8px; filter: grayscale(100%) sepia(30%) hue-rotate(10deg) brightness(0.9) contrast(1.2) drop-shadow(0 15px 30px rgba(0,0,0,0.6)) drop-shadow(0 0 25px rgba(212,175,55,0.2)); object-fit: cover; height: 100%;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-darker">
+        <div class="container">
+            <div class="section-header hidden-element">
+                <h3 class="section-subtitle">Exclusive Offerings</h3>
+                <h2 class="section-title">Our Premium <span>Services</span></h2>
+                <p>Curated physical conditioning designed for the elite.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Card 1 -->
+                <div class="service-card glass-panel hidden-element">
+                    <div class="card-icon"><i class="fas fa-om"></i></div>
+                    <h3>Advanced Yoga</h3>
+                    <p>Master complex asanas, build profound flexibility, and achieve mental clarity through our
+                        specialized progressive yoga sequences.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="service-card glass-panel hidden-element" style="transition-delay: 100ms;">
+                    <div class="card-icon"><i class="fas fa-dumbbell"></i></div>
+                    <h3>Strength & Conditioning</h3>
+                    <p>Science-backed physical training programs to build lean muscle, ignite metabolism, and develop
+                        functional power.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="service-card glass-panel hidden-element" style="transition-delay: 200ms;">
+                    <div class="card-icon"><i class="fas fa-bone"></i></div>
+                    <h3>Posture Correction</h3>
+                    <p>Targeted movements like our signature Universal Spinal Twist to realign hip joints, relieve lower
+                        back tightness, and improve posture.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="service-card glass-panel hidden-element" style="transition-delay: 300ms;">
+                    <div class="card-icon"><i class="fas fa-heartbeat"></i></div>
+                    <h3>Personalized Nutrition</h3>
+                    <p>Bespoke dietary guidance that complements your physical exertion, ensuring holistic well-being
+                        and faster results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootcamp Section -->
+    <section id="bootcamp" class="section">
+        <div class="container">
+            <div class="glass-panel"
+                style="border-color: var(--gold); background: linear-gradient(135deg, rgba(212,175,55,0.1) 0%, rgba(10,10,10,0.8) 100%); position: relative; overflow: hidden; padding: 4rem 3rem;">
+                <div
+                    style="position: absolute; top: -50px; right: -50px; width: 200px; height: 200px; background: radial-gradient(circle, rgba(212,175,55,0.2) 0%, transparent 70%); border-radius: 50%;">
+                </div>
+
+                <div class="hidden-element"
+                    style="text-align: center; max-width: 800px; margin: 0 auto; position: relative; z-index: 2;">
+                    <span
+                        style="display: inline-block; padding: 0.5rem 1.5rem; background: rgba(212,175,55,0.2); color: var(--gold); border-radius: 50px; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; font-weight: 600; margin-bottom: 1.5rem;">Join
+                        the Elite</span>
+
+                    <h2 class="section-title" style="margin-bottom: 1.5rem; font-size: clamp(2rem, 5vw, 3.5rem);">30
+                        Days <span style="display: block; font-size: clamp(2.5rem, 6vw, 4.5rem);">Fitness
+                            Challenge</span> Boot Camp</h2>
+
+                    <p style="font-size: 1.1rem; color: var(--text-light); margin-bottom: 2.5rem;">Transform your
+                        physique, build unbreakable habits, and elevate your mental toughness inside an exclusive 30-day
+                        intensive Boot Camp led directly by <strong>Mohnish Sir</strong>.</p>
+
+                    <div
+                        style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2.5rem; color: var(--text-muted); font-weight: 500;">
+                        <div style="display: flex; align-items: center; gap: 0.5rem;"><i class="fas fa-fire"
+                                style="color: var(--gold);"></i> Extreme Fat Loss</div>
+                        <div style="display: flex; align-items: center; gap: 0.5rem;"><i class="fas fa-bolt"
+                                style="color: var(--gold);"></i> High Energy</div>
+                        <div style="display: flex; align-items: center; gap: 0.5rem;"><i class="fas fa-medal"
+                                style="color: var(--gold);"></i> Guaranteed Results</div>
+                    </div>
+
+                    <a href="https://wa.me/918055492441?text=Hi%20Mohnish%20Sir,%20I'm%20ready%20to%20join%20the%2030%20Days%20Fitness%20Challenge%20Boot%20Camp!"
+                        class="btn-primary" target="_blank" rel="noopener noreferrer">
+                        Enlist Now <i class="fab fa-whatsapp" style="margin-left: 0.5rem; font-size: 1.2rem;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Killer Combo Offer Section -->
+    <section id="offer" class="section"
+        style="position: relative; border-top: 1px solid rgba(212, 175, 55, 0.1); border-bottom: 1px solid rgba(212, 175, 55, 0.1);">
+        <div class="container">
+            <div class="glass-panel hidden-element"
+                style="max-width: 850px; margin: 0 auto; text-align: center; border-color: var(--gold); position: relative; background: linear-gradient(160deg, rgba(10,10,10,0.95), rgba(212,175,55,0.08)); padding: 5rem 2rem 4rem 2rem; box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+
+                <!-- Urgency Badge -->
+                <div class="pulse-animation"
+                    style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%); background: #d90429; color: white; padding: 0.6rem 2.5rem; border-radius: 50px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; font-size: 0.95rem; box-shadow: 0 5px 20px rgba(217, 4, 41, 0.4); z-index: 10;">
+                    <i class="fas fa-hourglass-half"></i> Limited Time Offer
+                </div>
+
+                <h3 class="section-subtitle" style="margin-top: 1rem; color: #d90429;">The Ultimate Blueprint</h3>
+                <h2 class="section-title" style="margin-bottom: 2.5rem;">🔥 Transform Your Body in <span
+                        style="font-size: 1.2em;">90 Days</span></h2>
+
+                <div
+                    style="text-align: left; max-width: 550px; margin: 0 auto 3rem auto; background: rgba(0,0,0,0.4); padding: 2.5rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05);">
+                    <ul style="list-style: none; font-size: 1.15rem;">
+                        <li style="margin-bottom: 1.2rem; display: flex; align-items: flex-start; gap: 1rem;"><i
+                                class="fas fa-check-circle"
+                                style="color: var(--gold); font-size: 1.4rem; margin-top: 3px;"></i>
+                            <div><strong style="color: white;">Free Diet Plan</strong> <span
+                                    style="color: var(--text-muted); font-size: 0.9em;">(Worth ₹1999)</span></div>
+                        </li>
+                        <li style="margin-bottom: 1.2rem; display: flex; align-items: flex-start; gap: 1rem;"><i
+                                class="fas fa-check-circle"
+                                style="color: var(--gold); font-size: 1.4rem; margin-top: 3px;"></i>
+                            <div><strong style="color: white;">3 Days Free Trial</strong> <span
+                                    style="color: var(--text-muted); font-size: 0.9em;">Personal Training</span></div>
+                        </li>
+                        <li style="margin-bottom: 1.2rem; display: flex; align-items: flex-start; gap: 1rem;"><i
+                                class="fas fa-check-circle"
+                                style="color: var(--gold); font-size: 1.4rem; margin-top: 3px;"></i>
+                            <div><strong style="color: white;">Weekly Progress Tracking</strong> & Analysis</div>
+                        </li>
+                        <li style="margin-bottom: 1.2rem; display: flex; align-items: flex-start; gap: 1rem;"><i
+                                class="fas fa-gift" style="color: #d90429; font-size: 1.4rem; margin-top: 3px;"></i>
+                            <div><strong style="color: white;">Bonus:</strong> <span
+                                    style="color: var(--text-muted); font-size: 0.9em;">Home Workout Guide PDF</span>
+                            </div>
+                        </li>
+
+                        <li
+                            style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px dashed rgba(255,255,255,0.1); display: flex; align-items: center; gap: 1rem;">
+                            <i class="fas fa-tag"
+                                style="color: #d90429; font-size: 1.6rem; animation: bounce 2s infinite;"></i>
+                            <div
+                                style="color: #d90429; font-weight: 800; font-size: 1.3rem; text-transform: uppercase;">
+                                FLAT 50% OFF For First 20 Clients!</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <a href="https://wa.me/918055492441?text=Hi%20Mohnish%20Sir,%20I'm%20highly%20interested%20in%20the%2090-Days%20Transformation%20Offer%20with%2050%25%20Discount!"
+                    class="btn-primary pulse-animation" target="_blank" rel="noopener noreferrer"
+                    style="font-size: 1.15rem; padding: 1.2rem 3.5rem; width: 100%; max-width: 400px; display: inline-flex; justify-content: center;">
+                    START YOUR TRANSFORMATION <i class="fab fa-whatsapp"
+                        style="margin-left: 0.5rem; font-size: 1.5rem;"></i>
+                </a>
+
+                <p style="margin-top: 2rem; font-size: 1rem; color: var(--text-muted); font-weight: 500;">
+                    <i class="fas fa-shield-alt" style="color: var(--gold);"></i> 100+ Clients Successfully Transformed
+                    & Counting.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Yoga Poses Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-header hidden-element">
+                <h3 class="section-subtitle">Visual Inspiration</h3>
+                <h2 class="section-title">Signature <span>Yoga Poses</span></h2>
+                <p>Witness the perfect harmony of strength, balance, and flexibility.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item hidden-element">
+                    <div class="gallery-overlay">
+                        <h4>Advanced Strength</h4>
+                    </div>
+                    <img src="assets/yoga_pose_1_1775997271036.png" alt="Advanced Strength Yoga Pose" loading="lazy">
+                </div>
+                <div class="gallery-item hidden-element" style="transition-delay: 150ms;">
+                    <div class="gallery-overlay">
+                        <h4>Supreme Balance</h4>
+                    </div>
+                    <img src="assets/yoga_pose_2_1775997297548.png" alt="Supreme Balance Yoga Pose" loading="lazy">
+                </div>
+                <div class="gallery-item hidden-element" style="transition-delay: 300ms;">
+                    <div class="gallery-overlay">
+                        <h4>Deep Flexibility</h4>
+                    </div>
+                    <img src="assets/yoga_pose_3_1775997326992.png" alt="Deep Flexibility Yoga Pose" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation Form Section -->
+    <section id="consultation" class="section bg-darker">
+        <div class="container">
+            <div class="section-header hidden-element">
+                <h3 class="section-subtitle" style="color: #d90429;">Take The First Step</h3>
+                <h2 class="section-title">Free Body <span>Assessment</span></h2>
+                <p>Tell us about your physical current state, and Mohnish Sir will guide your transformation.</p>
+            </div>
+
+            <div class="glass-panel hidden-element"
+                style="max-width: 800px; margin: 0 auto; border-color: var(--gold);">
+                <form id="consultationForm">
+                    <div class="form-grid">
+                        <div class="input-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required placeholder="Your Name">
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required placeholder="you@example.com">
+                        </div>
+                        <div class="input-group">
+                            <label for="age">Age</label>
+                            <input type="number" id="age" required placeholder="E.g., 25">
+                        </div>
+                        <div class="input-group">
+                            <label for="weight">Weight (kg)</label>
+                            <input type="number" id="weight" step="0.1" required placeholder="E.g., 70">
+                        </div>
+                        <div class="input-group">
+                            <label for="height">Height (cm)</label>
+                            <input type="number" id="height" step="0.1" required placeholder="E.g., 175">
+                        </div>
+                        <div class="input-group">
+                            <label for="bmi">BMI (Auto-calculated)</label>
+                            <input type="text" id="bmi" readonly placeholder="Calculates automatically...">
+                        </div>
+                    </div>
+                    <div class="input-group" style="margin-top: 1.5rem;">
+                        <label for="problem">What is your current fitness problem or goal?</label>
+                        <textarea id="problem" rows="4" required
+                            placeholder="E.g., I want to lose belly fat, I have lower back pain, or I want to build muscle..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary"
+                        style="width: 100%; margin-top: 1.5rem; display: flex; justify-content: center; font-size: 1.15rem; padding: 1.2rem;">
+                        Submit & Get Free Strategy <i class="fas fa-paper-plane" style="margin-left: 0.5rem;"></i>
+                    </button>
+                    <div id="formMessage"
+                        style="display: none; text-align: center; margin-top: 1.5rem; font-weight: 600; padding: 1rem; border-radius: 8px;">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2>YOGA<span>.FITX</span></h2>
+                <p>Premium Fitness & Yoga Coaching<br>Nagpur, Maharashtra.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-phone-alt"></i> +91 8055492441</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:yogadotfitxteam@gmail.com"
+                        style="color: var(--text-muted); text-decoration: none;">yogadotfitxteam@gmail.com</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Nandanvan, Nagpur</p>
+                <div class="social-icons">
+                    <a href="https://share.google/rXqIFw05HvDxaWBwQ" target="_blank" rel="noopener noreferrer"
+                        aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/mohnish-ambule-481b19286/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B%2F7HbIf9XRty5a%2BKSFdjf8Q%3D%3D"
+                        target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://youtube.com/@yogafitx?si=wMMo08B1SlTVyIZK" target="_blank"
+                        rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/yoga.fitx/" target="_blank" rel="noopener noreferrer"
+                        aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-shop">
+                <h4>Pro Shop</h4>
+                <p style="color: var(--text-muted); margin-bottom: 0.8rem; font-size: 0.9rem;">Premium T-Shirts, Yoga
+                    Mats & Fitness Gear.</p>
+                <a href="https://www.instagram.com/sports_store_09/" target="_blank" rel="noopener noreferrer"
+                    style="display: inline-block; color: var(--gold); text-decoration: none; margin-bottom: 0.8rem; font-weight: 500; transition: transform 0.3s ease;"><i
+                        class="fab fa-instagram"></i> Shop on Instagram</a>
+                <p style="color: var(--text-muted); margin-bottom: 0.8rem;"><i class="fab fa-whatsapp"
+                        style="color: var(--gold);"></i> <a href="https://wa.me/918055492441"
+                        style="color: var(--text-muted); text-decoration: none; transition: color 0.3s ease;">+91
+                        8055492441</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Yoga.Fitx. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/918055492441?text=Hi%20Yoga.Fitx,%20I'm%20interested%20in%20your%20services!"
+        class="whatsapp-float pulse-animation" target="_blank" rel="noopener noreferrer"
+        aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+//
